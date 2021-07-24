@@ -39,7 +39,7 @@ const useOkrListFormatter = ({sourceData = [], activeSearchList = []}) => {
         } else {
             setFilteredSourceData(formattedDataResponse);
         }
-    }, [activeSearchList, formattedDataResponse]);
+    }, [activeSearchList, formattedDataResponse, sourceData]);
     return ({formattedDataResponse: filteredSourceData, categoryList})
 }
 
