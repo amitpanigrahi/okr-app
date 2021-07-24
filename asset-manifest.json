@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/amitpanigrahi/okr-app.git/static/css/main.4836e4cd.chunk.css",
-    "main.js": "/amitpanigrahi/okr-app.git/static/js/main.d2d1293a.chunk.js",
-    "main.js.map": "/amitpanigrahi/okr-app.git/static/js/main.d2d1293a.chunk.js.map",
-    "runtime-main.js": "/amitpanigrahi/okr-app.git/static/js/runtime-main.3b3d20fd.js",
-    "runtime-main.js.map": "/amitpanigrahi/okr-app.git/static/js/runtime-main.3b3d20fd.js.map",
-    "static/js/2.8c8a0030.chunk.js": "/amitpanigrahi/okr-app.git/static/js/2.8c8a0030.chunk.js",
-    "static/js/2.8c8a0030.chunk.js.map": "/amitpanigrahi/okr-app.git/static/js/2.8c8a0030.chunk.js.map",
-    "index.html": "/amitpanigrahi/okr-app.git/index.html",
-    "static/css/main.4836e4cd.chunk.css.map": "/amitpanigrahi/okr-app.git/static/css/main.4836e4cd.chunk.css.map",
-    "static/js/2.8c8a0030.chunk.js.LICENSE.txt": "/amitpanigrahi/okr-app.git/static/js/2.8c8a0030.chunk.js.LICENSE.txt"
+    "main.css": "/okr-app/static/css/main.4836e4cd.chunk.css",
+    "main.js": "/okr-app/static/js/main.d2d1293a.chunk.js",
+    "main.js.map": "/okr-app/static/js/main.d2d1293a.chunk.js.map",
+    "runtime-main.js": "/okr-app/static/js/runtime-main.0c14a448.js",
+    "runtime-main.js.map": "/okr-app/static/js/runtime-main.0c14a448.js.map",
+    "static/js/2.8c8a0030.chunk.js": "/okr-app/static/js/2.8c8a0030.chunk.js",
+    "static/js/2.8c8a0030.chunk.js.map": "/okr-app/static/js/2.8c8a0030.chunk.js.map",
+    "index.html": "/okr-app/index.html",
+    "static/css/main.4836e4cd.chunk.css.map": "/okr-app/static/css/main.4836e4cd.chunk.css.map",
+    "static/js/2.8c8a0030.chunk.js.LICENSE.txt": "/okr-app/static/js/2.8c8a0030.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b3d20fd.js",
+    "static/js/runtime-main.0c14a448.js",
     "static/js/2.8c8a0030.chunk.js",
     "static/css/main.4836e4cd.chunk.css",
     "static/js/main.d2d1293a.chunk.js"
