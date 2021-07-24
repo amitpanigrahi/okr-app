@@ -1,0 +1,27 @@
+//@use "src/Styles/_color" as colorVar;
+@import "src/Styles/_color";
+@import "src/Styles/media-queries";
+//--default-color: colorVar.$hot-coral;
+
+$errorColor: $hot-coral;
+$successColor: $retro-lime;
+.tag-module-height {
+  transition: 0.5s ease-in-out;
+  max-height: 50px;
+  overflow: auto;
+}
+//@include for-phone-only {
+//  .tag-module-height {
+//    max-height: 50px;
+//  }
+//}
+.tag {
+  color: $errorColor;
+  border: 2px solid $errorColor;
+  transition: 0.3s ease-in-out;
+  &.active {
+    color: white;
+    background-color: $successColor;
+    border-color: $successColor;
+  }
+}

@@ -1,0 +1,36 @@
+.loader__react-loader {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100%;
+  z-index: 9999999999;
+}
+
+.loader__react-loader-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loader__react-loader-logo {
+    animation: loader__react-loader-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes loader__react-loader-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,51 @@
+@import "fontSizes";
+@import "boxStyles";
+@import "cta";
+@import "flex";
+* {
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  height: 100%;
+}
+
+.text {
+  &-center {
+    text-align: center;
+  }
+}
+
+.cursor {
+  &-pointer {
+    cursor: pointer;
+  }
+}
+
+.overflow {
+  &-auto {
+    overflow: auto;
+  }
+}
+
+.float {
+  &-left {
+    float: left;
+  }
+}
+
+.theme__ {
+  &dark {
+    color: #fff;
+    background: #000;
+    border-radius: 0;
+  }
+  &light {
+    color: #000;
+    background: #fff;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,7 @@
+$font-sizes: 12, 14, 16;
+
+@each $size in $font-sizes {
+  .font#{$size} {
+    font-size: ($size/ 16)+rem;
+  }
+}

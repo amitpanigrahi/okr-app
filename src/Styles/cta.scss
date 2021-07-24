@@ -1,0 +1,33 @@
+@import "./color";
+@import "media-queries";
+.btn {
+  &-primary {
+    border: transparent;
+    color: white;
+    background-color: $magnesium;
+    &:not(:disabled) {
+      background-color: $retro-lime;
+      @include for-tablet-landscape-up {
+        &:hover {
+          background-color: darken($retro-lime, 15%);
+        }
+      }
+      @extend .cursor-pointer;
+    }
+  }
+  &-theme-toggle {
+    border: 3px solid slateblue;
+    color: inherit;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    font-weight: bold;
+    @extend .cursor-pointer;
+    @include for-phone-only {
+      bottom: 15px;
+      top: auto;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+$box-sizes: 0, 1, 2, 3, 4, 5;
+$height-segment: 50, 100;
+$baseScale: .5;
+@each $height in $height-segment {
+  .h {
+    &-#{$height} {
+      height: $height*1%;
+    }
+  }
+}
+@each $size in $box-sizes {
+  .p {
+    &-#{$size} {
+      padding: ($baseScale * $size)+em;
+    }
+    &x-#{$size} {
+      padding: 0 ($baseScale * $size)+em;
+    }
+    &l-#{$size} {
+      padding-left: ($baseScale * $size)+em;
+    }
+    &y-#{$size} {
+      padding: ($baseScale * $size)+em 0;
+    }
+  }
+  .m {
+    &-#{$size} {
+      margin: ($baseScale * $size)+em;
+    }
+    &x-#{$size} {
+      margin: 0 ($baseScale * $size)+em;
+    }
+    &y-#{$size} {
+      margin: ($baseScale * $size)+em 0;
+    }
+  }
+}
