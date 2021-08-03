@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/okr-app/static/css/main.4836e4cd.chunk.css",
-    "main.js": "/okr-app/static/js/main.d20c2cf7.chunk.js",
-    "main.js.map": "/okr-app/static/js/main.d20c2cf7.chunk.js.map",
+    "main.js": "/okr-app/static/js/main.798a95c4.chunk.js",
+    "main.js.map": "/okr-app/static/js/main.798a95c4.chunk.js.map",
     "runtime-main.js": "/okr-app/static/js/runtime-main.0c14a448.js",
     "runtime-main.js.map": "/okr-app/static/js/runtime-main.0c14a448.js.map",
     "static/js/2.8c8a0030.chunk.js": "/okr-app/static/js/2.8c8a0030.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.0c14a448.js",
     "static/js/2.8c8a0030.chunk.js",
     "static/css/main.4836e4cd.chunk.css",
-    "static/js/main.d20c2cf7.chunk.js"
+    "static/js/main.798a95c4.chunk.js"
   ]
 }
