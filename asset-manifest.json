@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/okr-app/static/css/main.4836e4cd.chunk.css",
+    "main.css": "/okr-app/static/css/main.614b72fe.chunk.css",
     "main.js": "/okr-app/static/js/main.798a95c4.chunk.js",
     "main.js.map": "/okr-app/static/js/main.798a95c4.chunk.js.map",
     "runtime-main.js": "/okr-app/static/js/runtime-main.0c14a448.js",
@@ -8,14 +8,14 @@
     "static/js/2.8c8a0030.chunk.js": "/okr-app/static/js/2.8c8a0030.chunk.js",
     "static/js/2.8c8a0030.chunk.js.map": "/okr-app/static/js/2.8c8a0030.chunk.js.map",
     "index.html": "/okr-app/index.html",
-    "static/css/main.4836e4cd.chunk.css.map": "/okr-app/static/css/main.4836e4cd.chunk.css.map",
+    "static/css/main.614b72fe.chunk.css.map": "/okr-app/static/css/main.614b72fe.chunk.css.map",
     "static/js/2.8c8a0030.chunk.js.LICENSE.txt": "/okr-app/static/js/2.8c8a0030.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/okr-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0c14a448.js",
     "static/js/2.8c8a0030.chunk.js",
-    "static/css/main.4836e4cd.chunk.css",
+    "static/css/main.614b72fe.chunk.css",
     "static/js/main.798a95c4.chunk.js"
   ]
 }
